@@ -1,0 +1,15 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /delayQueue
+
+spring:
+  application:
+    name: delayQueue
+  redis:
+    database: 0
+    host: 192.168.0.103
+    port: 6379
+    # password:
+    # 连接超时时间
+    timeout: 10000
