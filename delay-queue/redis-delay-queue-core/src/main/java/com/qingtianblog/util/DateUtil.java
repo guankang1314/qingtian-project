@@ -52,6 +52,10 @@ public class DateUtil {
         return localDateTime.format(DateTimeFormatter.ofPattern(pattern));
     }
 
+    public void test(boolean x) {
+
+    }
+
 
     /**
      * DateTime对象转换为LocalDateTime对象
